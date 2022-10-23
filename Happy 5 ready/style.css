@@ -1,0 +1,105 @@
+@font-face {
+    font-family:OpenSans;
+    src: url("open-sans.regular.ttf");
+}
+
+*{
+    margin: 0px;
+    padding: 0px;
+    font-family: 'OpenSans';
+}
+
+body {
+    display: flex;
+}
+
+main {
+    margin: 0px 50px ;
+}
+
+#menu{
+    width:68px;
+    height:100vh;
+    background-color:#1A0931 ;
+    position: relative;
+}
+
+#menu .logo {
+    display: flex;
+}
+
+#menu .logo img{
+width: 28px;
+}
+
+
+.title {
+  margin-top: 20px;
+}
+
+
+.title-text{
+    font-size: 20px;
+    color: #2F3136;
+    line-height: 24px;
+    font-weight: bold;
+
+}
+
+.card-container{
+margin-top: 24px;
+
+}
+
+
+.year-text{
+    line-height: 20px;
+    color :#5D6372;
+    font-size :12px; 
+}
+
+.year{
+    margin: -6px 0px;
+}
+
+
+.month-text {
+    line-height: 24px;
+    color :#5D6372;
+    font-size: 14px;
+    font-weight: bold;
+}
+
+
+.card-title {
+    line-height: 24px;
+    font-size: 14px;
+    color :#2F3136; 
+    font-weight: bold;
+}
+
+.card  .mb-3 {
+    width: 282px;
+    border-radius: 4px;
+    
+
+}
+
+.card-body {
+    padding:0px
+}
+
+.titik-3{
+    float: right;
+    display: flex;
+    justify-items: flex-end;
+}
+
+.icon-shop{
+    margin:0px 0px 0px -10px;
+}
+.icon-persen{
+    margin:5px 0px 0px -8px;
+    font-size: 12px;
+    color: #5D6372;
+}
